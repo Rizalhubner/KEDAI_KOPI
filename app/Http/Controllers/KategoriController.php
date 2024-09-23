@@ -15,9 +15,9 @@ class KategoriController extends Controller
     }
 
     // Menampilkan form tambah kategori
-    public function create()
+    public function create(Kategori  $kategori)
     {
-        return view('kategori.create');
+        return view('kategori.create', compact('kategori'));
     }
 
     // Menyimpan kategori baru

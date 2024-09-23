@@ -1,22 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Daftar Kategori</h1>
-    <a href="{{ route('kategori.create') }}">Tambah Kategori</a>
+<div class="container">
+    <h1>Tambahkan Kategori</h1>
 
-    @if(session('success'))
-        <p>{{ session('success') }}</p>
-    @endif
+    <form action="{{ route('kategori.store') }}" method="POST">
+        @csrf
+        <div class="mb-3">
+            <label for="nama" class="form-label">Nama Kategori</label>
+            <input type="text" name="nama" class="form-control" required>
+        </div>
 
-    <ul>
-        @foreach($kategori as $k)
-            <li>{{ $k->nama }} - <a href="{{ route('kategori.edit', $k->id) }}">Edit</a> | 
-                <form action="{{ route('kategori.destroy', $k->id) }}" method="POST" style="display:inline;">
-                    @csrf
-                    @method('DELETE')
-                    <button type="submit">Hapus</button>
-                </form>
-            </li>
-        @endforeach
-    </ul>
+        <button type="submit" class="btn btn-primary">Create Category</button>
+    </form>
+</div>
 @endsection
