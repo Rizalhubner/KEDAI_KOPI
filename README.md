@@ -2,7 +2,7 @@
 ![Screenshot 2024-09-23 170415](https://github.com/user-attachments/assets/c302b95d-9bed-4b0a-a36e-f266d622c712)
 
 # uml
-
+![Untitled ](https://github.com/user-attachments/assets/d366a18a-bc2c-4b15-8d5d-7b4b25e1af36)
 # 1. Prasyarat 
 ### Pastikan perangkat Anda telah memenuhi prasyarat berikut sebelum menginstal Repository ini:
 
@@ -20,12 +20,12 @@ git clone https://github.com/Rizalhubner/KEDAI_KOPI.git
 ### Langkah 2: Pindah ke Direktori Proyek 
 
 
-``cd KEDAI_KOPI``
+```cd KEDAI_KOPI```
 
 - Setelah Itu Masuk Ke dalam Visual Studio Code
 
 
-``code .``
+```code .```
 
 ### Langkah 3: Instal Dependensi Backend
 ```
