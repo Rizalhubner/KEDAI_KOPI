@@ -2,7 +2,7 @@
 ![Screenshot 2024-09-23 170415](https://github.com/user-attachments/assets/c302b95d-9bed-4b0a-a36e-f266d622c712)
 
 # uml
-![Untitled ](https://github.com/user-attachments/assets/d366a18a-bc2c-4b15-8d5d-7b4b25e1af36)
+![Screenshot 2024-09-25 101802](https://github.com/user-attachments/assets/08e45db0-f2df-48cf-8bb3-baee4b172794)
 # 1. Prasyarat 
 ### Pastikan perangkat Anda telah memenuhi prasyarat berikut sebelum menginstal Repository ini:
 
