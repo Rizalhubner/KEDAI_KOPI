@@ -20,12 +20,12 @@ git clone https://github.com/Rizalhubner/KEDAI_KOPI.git
 ### Langkah 2: Pindah ke Direktori Proyek 
 
 
-cd KEDAI_KOPI
+``cd KEDAI_KOPI``
 
 - Setelah Itu Masuk Ke dalam Visual Studio Code
 
 
-code .
+``code .``
 
 ### Langkah 3: Instal Dependensi Backend
 ```
